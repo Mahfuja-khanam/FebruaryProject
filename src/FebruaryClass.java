@@ -6,10 +6,12 @@ public class FebruaryClass{
         int c = a+b;
         int multi = a*b;
         double div = (double) a /b;
+        boolean isFriday = false;
 
         System.out.println("sum of a+b "+c);
         System.out.println("subtraction of a-b " +(a-b));
         System.out.println("multiplication = " + multi);
+        System.out.println( isFriday);
         System.out.println( "div = "+ div);
 
     }
